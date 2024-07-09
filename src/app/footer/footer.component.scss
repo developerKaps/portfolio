@@ -1,0 +1,50 @@
+@import "../vars.scss";
+
+.footer {
+  padding: 50px 100px 10px 100px;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.685);
+
+  @include mobile() {
+    padding: 10px;
+  }
+
+  .section1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.685);
+    padding: 0 0 40px 0;
+
+    h1 {
+      line-height: 32px;
+    }
+  }
+
+  .section2 {
+    padding: 50px 0;
+
+    h5 {
+      font-size: 25px;
+      color: rgba(197, 84, 43, 0.843);
+    }
+
+    h6 {
+      color: rgba(255, 255, 255, 0.685);
+    }
+
+    p {
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.685);
+      cursor: pointer;
+    }
+
+    a{
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.685);;
+    }
+  }
+}
+
+.form {
+  iframe {
+    position: relative;
+  }
+}

@@ -1,0 +1,18 @@
+<div class="retroRides_aboutus">
+  <div class="row">
+    <div class="col-12 section1">
+      <p class="heading">My <span>Skills</span></p>
+    </div>
+    <div class="row section2">
+      <div *ngFor="let item of skills" class="col-12 col-md-6 col-lg-6 skills_bar">
+        <div class="skill_title">
+          <span>{{item.name}}</span>
+          <span>{{item.progress}}%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [style.width.%]="item.progress"
+            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+  </div>

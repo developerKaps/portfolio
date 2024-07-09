@@ -1,0 +1,27 @@
+<div class="retroRides_collection">
+  <div class="row">
+    <div class="col-12 section1">
+      <p class="heading">My <span>Projects</span></p>
+    </div>
+    <div class="section2 row">
+      <div *ngFor="let item of projects" class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img *ngIf="item.imagePath" [src]="item.imagePath" alt="" class="card-img-top">
+          <h1 *ngIf="!item.imagePath" class="card-img-top text-center">{{item.name}}</h1>
+          <div class="card-body">
+            <h1 class="card-title">{{item.name}}</h1>
+            <h3 class="card-text">{{item.description}}</h3>
+            <a class="btn btn-primary" href={{item.url}} target="_blank">
+              Visit site
+              <svg class="rtl:rotate-180 ms-2" style="width: 15px;" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
