@@ -13,19 +13,19 @@ const projects = [
     {
         title: "Wearegameplan",
         description: "Developed and maintained a comprehensive web platform for managing athletes and stakeholders across multiple user roles — including SuperAdmin, Admin, Coach, Mentor, Athlete, Alumni, and Recruiter.",
-        technologies: ["Angular", "AngularJS", "Javascript", "TypeScript", "Angular Material"],
+        technologies: ["Angular", "AngularJS", "Javascript", "TypeScript", "APIs Integration", "Angular Material"],
         liveUrl: "https://www.wearegameplan.com/"
     },
     {
         title: "Inclusion Pathways",
         description: "Third project description. Describe the challenges you faced and how you overcame them.",
-        technologies: ["JavaScript", "Redux", "Google Maps"],
+        technologies: ["Angular", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Tailwind"],
         liveUrl: "https://www.inclusionpathways.com/"
     },
     {
         title: "Diskorse",
         description: "Developed dynamic social features empowering users to create and share articles, participate in debates, and engage through interactive commentary threads.",
-        technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+        technologies: ["Next.js", "TypeScript", "APIs Integration", "Tailwind CSS"],
         liveUrl: "https://diskorse.com/"
     }
 ];

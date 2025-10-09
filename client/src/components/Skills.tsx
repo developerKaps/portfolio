@@ -1,10 +1,9 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Code2, 
-  Palette, 
-  Database, 
-  Layout, 
+import {
+  Code2,
+  Palette,
+  Layout,
   MapPin,
   Boxes
 } from "lucide-react";
@@ -20,6 +19,16 @@ const skillCategories = [
     ]
   },
   {
+    title: "Core Technologies",
+    icon: Code2,
+    skills: [
+      { name: "HTML", years: "3 years" },
+      { name: "CSS", years: "3 years" },
+      { name: "JavaScript", years: "3 years" },
+      { name: "TypeScript", years: "3 years" },
+    ]
+  },
+  {
     title: "State Management",
     icon: Boxes,
     skills: [
@@ -28,27 +37,20 @@ const skillCategories = [
     ]
   },
   {
-    title: "Core Technologies",
-    icon: Code2,
-    skills: [
-      { name: "JavaScript", years: "3 years" },
-      { name: "HTML", years: "3 years" },
-      { name: "CSS", years: "3 years" },
-    ]
-  },
-  {
     title: "Styling Frameworks",
     icon: Palette,
     skills: [
-      { name: "Tailwind CSS", years: "2 years" },
+      { name: "Tailwind CSS", years: "3 years" },
       { name: "Bootstrap", years: "3 years" },
+      { name: "Angular Material", years: "2 years" }
     ]
   },
   {
     title: "APIs & Services",
     icon: MapPin,
     skills: [
-      { name: "Google Maps", years: "2 years" },
+      { name: "Google Maps & Signup", years: "" },
+      { name: "Payment Gateways (Apple Pay, Amazon Pay, Google Pay)", years: "" },
     ]
   },
 ];
@@ -70,8 +72,8 @@ export function Skills() {
           {skillCategories.map((category, idx) => {
             const Icon = category.icon;
             return (
-              <Card 
-                key={idx} 
+              <Card
+                key={idx}
                 className="p-6 hover-elevate"
                 data-testid={`card-skill-category-${idx}`}
               >
@@ -85,8 +87,8 @@ export function Skills() {
                 </div>
                 <div className="space-y-3">
                   {category.skills.map((skill, skillIdx) => (
-                    <div 
-                      key={skillIdx} 
+                    <div
+                      key={skillIdx}
                       className="flex items-center justify-between"
                       data-testid={`skill-${category.title}-${skillIdx}`}
                     >
