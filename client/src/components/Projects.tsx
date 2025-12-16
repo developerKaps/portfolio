@@ -6,27 +6,52 @@ import { ExternalLink } from "lucide-react";
 const projects = [
     {
         title: "Zack Academy",
-        description: "Developed and maintained a comprehensive web platform for managing athletes and stakeholders across multiple user roles — including SuperAdmin, Admin, Coach, Mentor, Athlete, Alumni, and Recruiter.",
+        description: "Developed a responsive e-learning platform with interactive course listings and secure payment integration. Collaborated with backend teams to integrate APIs for real-time updates and payment gateways, delivering a scalable and mobile-optimized user experience.",
         technologies: ["NextJS", "TypeScript", "Tailwind CSS", "Google Maps", "Payment Integration", "APIs Integration"],
-        liveUrl: "https://marketing.zackacademy.com/"
+        liveUrl: "https://marketing.zackacademy.com/",
+        current: true
     },
     {
         title: "Wearegameplan",
-        description: "Developed and maintained a comprehensive web platform for managing athletes and stakeholders across multiple user roles — including SuperAdmin, Admin, Coach, Mentor, Athlete, Alumni, and Recruiter.",
+        description: "Developed a role-based athlete management platform supporting multiple user types and real-time collaboration. Optimized frontend performance to improve load times and user experience for a national user base.",
         technologies: ["Angular", "AngularJS", "Javascript", "TypeScript", "APIs Integration", "Angular Material"],
-        liveUrl: "https://www.wearegameplan.com/"
+        liveUrl: "https://www.wearegameplan.com/",
+        current: false
+    },
+    {
+        title: "Not the headlines",
+        description: "Built a community-driven news platform that promotes underrepresented and unbiased stories. Enabled user-submitted articles and videos with transparent source attribution to encourage deeper, more informed news consumption.",
+        technologies: ["Angular", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Tailwind"],
+        liveUrl: "https://nottheheadlines.in/",
+        current: false
+    },
+    {
+        title: "Campaign Donut",
+        description: "Built a marketing content planning app that enables teams to create, collaborate, and organize marketing content across email and social media channels.",
+        technologies: ["Angular", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Tailwind"],
+        liveUrl: "https://campaigndonut.com/",
+        current: false
     },
     {
         title: "Inclusion Pathways",
-        description: "Third project description. Describe the challenges you faced and how you overcame them.",
+        description: "Contributed to an accessibility-focused platform built by and for people with disabilities, emphasizing inclusive design, empowerment, and real-world lived experience.",
         technologies: ["Angular", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Tailwind"],
-        liveUrl: "https://www.inclusionpathways.com/"
+        liveUrl: "https://www.inclusionpathways.com/",
+        current: false
     },
     {
         title: "Diskorse",
-        description: "Developed dynamic social features empowering users to create and share articles, participate in debates, and engage through interactive commentary threads.",
+        description: "Developed a structured discussion platform enabling users to create topic-based spaces, choose debate formats, and engage through stance-driven conversations, fostering meaningful community interactions.",
         technologies: ["Next.js", "TypeScript", "APIs Integration", "Tailwind CSS"],
-        liveUrl: "https://diskorse.com/"
+        liveUrl: "https://diskorse.com/",
+        current: false
+    },
+    {
+        title: "Buchheit",
+        description: "Contributed to a dynamic e-commerce platform with admin-controlled layouts and content management, enabling real-time customization and scalable online shopping experiences.",
+        technologies: ["Angular", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Tailwind"],
+        liveUrl: "https://www.buchheits.com/",
+        current: false
     }
 ];
 
@@ -51,14 +76,17 @@ export function Projects() {
                             data-testid={`card-project-${idx}`}
                         >
                             <div className="flex-1">
-                                <h3 className="text-2xl font-bold mb-3" data-testid={`text-project-title-${idx}`}>
+                                <h3 className="flex justify-between text-2xl font-bold mb-3" data-testid={`text-project-title-${idx}`}>
                                     {project.title}
+                                    {project.current && (
+                                        <Badge data-testid={`badge-current-${idx}`}>Current</Badge>
+                                    )}
                                 </h3>
                                 <p className="text-muted-foreground mb-4" data-testid={`text-project-description-${idx}`}>
                                     {project.description}
                                 </p>
 
-                                <div className="flex flex-wrap gap-2 mb-6">
+                                <div className="flex flex-wrap gap-2 mt-auto mb-4">
                                     {project.technologies.map((tech, techIdx) => (
                                         <Badge
                                             key={techIdx}

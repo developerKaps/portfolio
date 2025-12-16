@@ -5,7 +5,8 @@ import {
   Palette,
   Layout,
   MapPin,
-  Boxes
+  Boxes,
+  Brain
 } from "lucide-react";
 
 const skillCategories = [
@@ -51,6 +52,13 @@ const skillCategories = [
     skills: [
       { name: "Google Maps & Signup", years: "" },
       { name: "Payment Gateways (Apple Pay, Amazon Pay, Google Pay)", years: "" },
+    ]
+  },
+  {
+    title: "Gen AI",
+    icon: Brain,
+    skills: [
+      { name: "LLMs, RAG (Retrieval-Augmented Generation), AI Agents, LangChain, LangGraph", years: "" },
     ]
   },
 ];

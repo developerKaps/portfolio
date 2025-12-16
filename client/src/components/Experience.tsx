@@ -19,7 +19,7 @@ const experiences = [
     location: "Kolkata",
     startDate: "September 2022",
     endDate: "November 2022",
-    duration: "3 months",
+    duration: "2 months",
     description: "Worked on frontend development projects utilizing modern JavaScript frameworks and libraries.",
     current: false
   },
