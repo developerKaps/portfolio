@@ -11,12 +11,14 @@ import {
 
 const skillCategories = [
   {
-    title: "Frontend Frameworks",
+    title: "Frontend/Backend Frameworks",
     icon: Layout,
     skills: [
       { name: "Angular", years: "3 years" },
       { name: "React", years: "3 years" },
       { name: "Next.js", years: "2 years" },
+      { name: "Node.js", years: "2 years" },
+      { name: "Express", years: "2 years" },
     ]
   },
   {
@@ -72,7 +74,7 @@ export function Skills() {
             Technical Skills
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive skill set built over 3+ years of professional web development
+            A comprehensive skill set built over 3+ years of professional full stack development
           </p>
         </div>
 

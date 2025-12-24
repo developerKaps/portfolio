@@ -7,21 +7,21 @@ const projects = [
     {
         title: "Zack Academy",
         description: "Developed a responsive e-learning platform with interactive course listings and secure payment integration. Collaborated with backend teams to integrate APIs for real-time updates and payment gateways, delivering a scalable and mobile-optimized user experience.",
-        technologies: ["NextJS", "TypeScript", "Tailwind CSS", "Google Maps", "Payment Integration", "APIs Integration"],
+        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Google Maps", "Payment Integration", "APIs Integration"],
         liveUrl: "https://marketing.zackacademy.com/",
         current: true
     },
     {
         title: "Wearegameplan",
         description: "Developed a role-based athlete management platform supporting multiple user types and real-time collaboration. Optimized frontend performance to improve load times and user experience for a national user base.",
-        technologies: ["Angular", "AngularJS", "Javascript", "TypeScript", "APIs Integration", "Angular Material"],
+        technologies: ["Angular", "AngularJS", "Javascript", "TypeScript", "APIs Integration", "Angular Material", "Bootstrap", "SCSS"],
         liveUrl: "https://www.wearegameplan.com/",
         current: false
     },
     {
         title: "Not the headlines",
         description: "Built a community-driven news platform that promotes underrepresented and unbiased stories. Enabled user-submitted articles and videos with transparent source attribution to encourage deeper, more informed news consumption.",
-        technologies: ["Angular", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Tailwind"],
+        technologies: ["Next.js", "Node.js", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Tailwind"],
         liveUrl: "https://nottheheadlines.in/",
         current: false
     },
@@ -42,14 +42,14 @@ const projects = [
     {
         title: "Diskorse",
         description: "Developed a structured discussion platform enabling users to create topic-based spaces, choose debate formats, and engage through stance-driven conversations, fostering meaningful community interactions.",
-        technologies: ["Next.js", "TypeScript", "APIs Integration", "Tailwind CSS"],
+        technologies: ["Next.js", "Node.js", "TypeScript", "APIs Integration", "Tailwind"],
         liveUrl: "https://diskorse.com/",
         current: false
     },
     {
         title: "Buchheit",
         description: "Contributed to a dynamic e-commerce platform with admin-controlled layouts and content management, enabling real-time customization and scalable online shopping experiences.",
-        technologies: ["Angular", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Tailwind"],
+        technologies: ["Angular", "Typescript", "Rxjs", "APIs Integration", "Material UI", "Bootstrap"],
         liveUrl: "https://www.buchheits.com/",
         current: false
     }

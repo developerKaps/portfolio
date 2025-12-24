@@ -23,10 +23,10 @@ export function Hero() {
             Krishnpal Singh
           </h1>
           <p className="text-2xl md:text-3xl text-white/95 font-semibold">
-            Web Developer
+            Full Stack Developer
           </p>
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto">
-            Crafting exceptional web experiences with 3+ years of expertise in Angular, React, Next.js, and modern web technologies
+            Crafting exceptional web experiences with 3+ years of expertise in Angular, React, Next.js, Node.js and modern web technologies
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 pt-6">

@@ -10,7 +10,7 @@ const experiences = [
     startDate: "December 2022",
     endDate: "Present",
     duration: "3 years",
-    description: "Currently working as a Software Developer, building modern web applications using React, Angular, and Next.js.",
+    description: "Currently working as a Software Developer, building modern web applications using React, Angular, Next.js and Node.js",
     current: true
   },
   {
