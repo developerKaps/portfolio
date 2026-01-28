@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Linkedin, Mail } from "lucide-react";
+import { ChevronDown, Linkedin, Mail, Download } from "lucide-react";
 import heroImage from "@assets/generated_images/Professional_workspace_hero_background_9a284088.png";
 
 export function Hero() {
@@ -7,6 +7,16 @@ export function Hero() {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const downloadCV = () => {
+    const pdfUrl = 'krishnpal_singh_3+years_fullstack_dev.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'krishnpal_singh_3+years_fullstack_dev.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" id="home">
@@ -42,11 +52,11 @@ export function Hero() {
               size="lg"
               variant="outline"
               className="backdrop-blur-md bg-white/10 border-white/20 text-white hover:bg-white/20"
-              onClick={() => scrollToSection('experience')}
+              onClick={downloadCV}
               data-testid="button-view-work"
             >
-              View My Work
-              <ChevronDown className="ml-2 h-5 w-5" />
+              <Download className="mr-2 h-5 w-5" />
+              Download Resume
             </Button>
           </div>
 
