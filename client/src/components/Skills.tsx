@@ -15,37 +15,37 @@ const skillCategories = [
     icon: Layout,
     skills: [
       { name: "Angular", years: "3 years" },
-      { name: "React", years: "3 years" },
-      { name: "Next.js", years: "2 years" },
-      { name: "Node.js", years: "2 years" },
-      { name: "Express", years: "2 years" },
+      { name: "React", years: "5 years" },
+      { name: "Next.js", years: "5 years" },
+      { name: "Node.js", years: "4 years" },
+      { name: "Express", years: "4 years" },
     ]
   },
   {
     title: "Core Technologies",
     icon: Code2,
     skills: [
-      { name: "HTML", years: "3 years" },
-      { name: "CSS", years: "3 years" },
-      { name: "JavaScript", years: "3 years" },
-      { name: "TypeScript", years: "3 years" },
+      { name: "HTML", years: "5 years" },
+      { name: "CSS", years: "5 years" },
+      { name: "JavaScript", years: "5 years" },
+      { name: "TypeScript", years: "5 years" },
     ]
   },
   {
     title: "State Management",
     icon: Boxes,
     skills: [
-      { name: "Redux", years: "3 years" },
-      { name: "RxJS", years: "3 years" },
+      { name: "Redux", years: "5 years" },
+      { name: "RxJS", years: "5 years" },
     ]
   },
   {
     title: "Styling Frameworks",
     icon: Palette,
     skills: [
-      { name: "Tailwind CSS", years: "3 years" },
-      { name: "Bootstrap", years: "3 years" },
-      { name: "Angular Material", years: "2 years" }
+      { name: "Tailwind CSS", years: "5 years" },
+      { name: "Bootstrap", years: "5 years" },
+      { name: "Angular Material", years: "3 years" }
     ]
   },
   {
