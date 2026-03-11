@@ -74,7 +74,7 @@ export function Skills() {
             Technical Skills
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive skill set built over 3+ years of professional full stack development
+            A comprehensive skill set built over 5+ years of professional full stack development
           </p>
         </div>
 

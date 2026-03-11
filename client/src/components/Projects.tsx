@@ -7,7 +7,7 @@ const projects = [
     {
         title: "Zack Academy",
         description: "Developed a responsive e-learning platform with interactive course listings and secure payment integration. Collaborated with backend teams to integrate APIs for real-time updates and payment gateways, delivering a scalable and mobile-optimized user experience.",
-        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Google Maps", "Payment Integration", "APIs Integration"],
+        technologies: ["Next.js", "TypeScript","Nodejs", "Tailwind CSS", "Google Maps", "Payment Integration", "APIs Integration",],
         liveUrl: "https://marketing.zackacademy.com/",
         current: true
     },

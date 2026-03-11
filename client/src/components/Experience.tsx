@@ -44,7 +44,7 @@ export function Experience() {
             Professional Experience
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Crafting exceptional web experiences with 3+ years of development expertise and 3.8 years as a Senior Associate in leading organizations.
+            Crafting exceptional web experiences with 5+ years of development expertise and 1.6 years as a Senior Associate in leading organizations.
           </p>
         </div>
 

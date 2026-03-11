@@ -9,10 +9,10 @@ export function Hero() {
   };
 
   const downloadCV = () => {
-    const pdfUrl = 'krishnpal_singh_3+years_fullstack_dev.pdf';
+    const pdfUrl = 'KrishnpalSingh.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'krishnpal_singh_3+years_fullstack_dev.pdf';
+    link.download = 'KrishnpalSingh.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -36,7 +36,7 @@ export function Hero() {
             Full Stack Developer
           </p>
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto">
-            Crafting exceptional web experiences with 3+ years of expertise in Angular, React, Next.js, Node.js and modern web technologies
+            Crafting exceptional web experiences with 5+ years of expertise in React, Next.js, Node.js, Angular and modern web technologies
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 pt-6">
