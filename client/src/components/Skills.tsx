@@ -14,11 +14,11 @@ const skillCategories = [
     title: "Frontend/Backend Frameworks",
     icon: Layout,
     skills: [
-      { name: "Angular", years: "3 years" },
       { name: "React", years: "5 years" },
       { name: "Next.js", years: "5 years" },
       { name: "Node.js", years: "4 years" },
       { name: "Express", years: "4 years" },
+      { name: "Angular", years: "3 years" },
     ]
   },
   {
