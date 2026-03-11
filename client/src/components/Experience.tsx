@@ -30,7 +30,7 @@ const experiences = [
     startDate: "November 2018",
     endDate: "July 2022",
     duration: "3.8 years",
-    description: "Worked as a Senior Associate with Openreach and Best Buy clients, providing technical assistance, troubleshooting, and support for enterprise web solutions.",
+    description: "Worked closely with development teams to troubleshoot production issues and implement fixes.",
     current: false
   }
 ];
