@@ -25,7 +25,7 @@ const experiences = [
   },
   {
     company: "Wipro",
-    role: "Senior Associate",
+    role: "Senior Associate (Application Support & Frontend Development)",
     location: "Pune",
     startDate: "November 2018",
     endDate: "July 2022",
